@@ -64,6 +64,12 @@ powershell -File experiments/run_latest.ps1 -Verify
 | `results/author_vs_latest_r/` | Comparison tables, figures, and timing results |
 | `results/upstream_r/` | Selected baseline summaries and source-integrity records; additional execution records are retained locally |
 
+## Comparison Chart
+
+![Original linear method versus Delayed3 across 42 datasets](comparison_chart.png)
+
+The chart shows aggregate metrics, changepoint counts, and per-dataset F1 changes. Chart labels are in Traditional Chinese. The main results use ground-truth-based level selection; see the limitations below.
+
 ## Results and Interpretation
 
 Across 42 datasets, mean F1 is **0.7556** for the original linear method and **0.7913** for Delayed3. Both methods produce 62 false positives in total; false negatives decrease from 19 to 14.
