@@ -1,0 +1,14 @@
+{
+  "method": "Delayed3",
+  "datasets": 42,
+  "upstream_changed": [],
+  "code_matches_configuration": true,
+  "source_sha256": {
+    "r_extension/refined_costs.R": "36e0a1cf2df3812d38fd8bfa3b3f2323288d72f640c0d838fd2bfb5c4001c1cc",
+    "r_extension/impulse_linear_cost.R": "ac61905ac16f030c6cfb191418b1aa2e53750e5a0ea04e275541453517a22652",
+    "r_extension/score_refinements.R": "0c655e034b6bba088cefa5ca792a77e5b71212f48b873ccf45326c8040d563d0",
+    "r_extension/delayed_thresholds.R": "1baf0bf58e67a1996b69331baeba5c05302270d08b83713db9bc6ea117bb71da",
+    "r_extension/cached_cost.R": "554eb915bbf5743f325ab2795433c24fe20a0c395a1c3295be8430a084c7b385",
+    "experiments/run_latest_r.R": "a7ebbfc86cc760757c5432b65e174d911497a8990db7235a77dbc0144d1ae8a3"
+  }
+}

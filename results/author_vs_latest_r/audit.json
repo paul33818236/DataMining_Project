@@ -1,0 +1,14 @@
+{
+  "upstream_changed": [],
+  "comparison_rows": 84,
+  "timing_rows": 252,
+  "exit_codes": {
+    "comparison": 0,
+    "timing": 0
+  },
+  "scripts_sha256": {
+    "experiments/compare_latest_author_r.R": "dcccb8b4ab18ee7f2d088d74be03f924137e5d6de0a993e19e6e75fd671c4021",
+    "experiments/time_author_latest_r.R": "f57058ff6e3139f64a1425eeeb4c8b3a717bbe0fb19f7afdd4024fb310b3be6f",
+    "experiments/build_author_latest_tables.py": "e76cfb34cf897c3d75c815a9a8be79365e858ff72c0fb4da8a8a9d0c5dc9c372"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "original": {
+    "cost": "linear",
+    "threshold": 0.1
+  },
+  "latest": {
+    "method": "Delayed3",
+    "threshold": 0.09,
+    "repair_k": 4,
+    "min_distance": 3,
+    "release_level": 3
+  },
+  "datasets": 42,
+  "secondary_metrics": "F1-biased/covering use SAME predictions selected by primary F1; not separately oracle-optimized",
+  "timing": "Matched timing: timing_summary.csv; three repeats per dataset, median; preparation + scoring + 10-level selection; no saved-score/cost reuse",
+  "caveat": "Exploratory previously inspected benchmark; primary and fixed-method CV use label-selected test levels"
+}

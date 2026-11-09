@@ -1,0 +1,12 @@
+library(scoth)
+library(dplyr)
+library(testthat)
+source("r_extension/score_refinements.R")
+test_that("score thinning is deterministic and respects minimum distance", {
+  s = c(.1, .8, .7, .05, .6, .4, .3)
+  expect_equal(thin_change_scores(s, 1), s)
+  expect_equal(which(thin_change_scores(s, 2) > 0), c(2L, 5L, 7L))
+  expect_equal(which(thin_change_scores(c(.9, .9, .8), 2) > 0), c(1L, 3L))
+  short = rep(0, 20); short[c(8,11)] = c(.9,.8)
+  expect_equal(which(thin_change_scores(short, 3) > 0), c(8L,11L))
+})

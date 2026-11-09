@@ -1,0 +1,25 @@
+__pycache__/
+*.pyc
+.venv/
+.dependencies/
+.runtime/
+tmp/
+
+# Fetch upstream separately; do not redistribute author source or raw data.
+/upstream/
+/Delayed3_latest_Windows/
+*.zip
+*.7z
+*.pptx
+/978-981-96-8183-9-260-272.pdf
+
+# Binary predictions contain copies of original series; keep derived tables.
+*.RDS
+*.rds
+*.log
+**/sessionInfo.txt
+**/*sessionInfo.txt
+/results/upstream_r/installed_packages.csv
+/results/upstream_r/environment.json
+/results/upstream_r/execution_command.txt
+/results/latest_r/cleanup_manifest.json

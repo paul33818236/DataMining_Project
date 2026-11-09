@@ -1,0 +1,5 @@
+"method","rule","datasets","F1_mean","F1_sd"
+"Delayed3","FixedLevel",42,0.476171579743008,0.360525746798893
+"Delayed3","OracleLevel",42,0.748985088985089,0.283477391853087
+"Original","FixedLevel",42,0.459051398337113,0.363771709987028
+"Original","OracleLevel",42,0.741359064216207,0.272160087187821
